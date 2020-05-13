@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>旅拍</title>
+    <link rel="stylesheet" href="../../css/public.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.css">
+    <link rel="stylesheet" href="./css/lvpai.css">
+</head>
+<body>
+    <div class="lvpai">
+      <div class="lvpaibox">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="../../img/1.jpg"></div>
+              <div class="swiper-slide"><img src="../../img/2.jpg"></div>
+              <div class="swiper-slide"><img src="../../img/3.jpg"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+      </div>
+      <div class="lvpaidiv">
+          <ul class="lvpaiul">
+              <li>
+                <div class="waterfall">
+                  <img src="../../img/2.jpg">
+                  <p>迪拜+阿布扎比5日跟团游·【双旦返场:指定班期特惠3999/人】12月26日-2020年2月1日迪拜购物节 </p>
+                </div>
+              </li>
+              <li>
+                <div class="waterfall">
+                  <img src="../../img/3.jpg">
+                  <p>迪拜+阿布扎比5日跟团游·【双旦返场:指定班期特惠3999/人】 </p>
+              </div>
+             </li>
+          </ul>
+      </div>
+    </div>
+</body>
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.js"></script>
+<script src="../../utils/zepto.js"></script>
+<script src="../../utils/jquery.min.js"></script>
+<script src="../../utils/jquery.lazyload.js"></script>
+<script src="懒加载练习.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        //autoplay: 1000,//可选选项，自动滑动
+        pagination : '.swiper-pagination',
+        loop : true
+    })
+  </script>
